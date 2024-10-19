@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"
+    <title>Mariam's portfolio</title>
+ </head>
+ <body>
+   <header>
+    <h1>Portfolio</h1>
+    <p>My name is Mariam.</p>
+    <p>This is a website showcasing my amazing abiities and skills.</p>
+   <header>
+
+   <button class="dark-mode-button" onclick="darkMode()"> Dark Mode</button>
+    
+   <ul class="nav-bar">
+      <li class ="nav-bar-item"><a href="portfolio.html">Home</a></li>
+      <li class ="nav-bar-item"><a href="project1.html">Project 1</a></li>
+      <li class ="nav-bar-item"><a>Form</a></li>
+    </ul>
+
+<!-- this is the about me section -->
+ <img src="" alt="screenshot of top page on website"/> 
+    <div id="About Me">
+    <h2>About me</h2>
+    <p>My name is Mariam, I am a web developer and I love code!</p>
+    <h3>Hobbies</h3>
+    <ul>
+      <li>Baking</li>
+      <li>Playing football, basketball and baseball</li>
+      <li>Jigsaws</li>
+    </ul>
+</div>
+<div id="Skills">
+    <h2>Skills</h2>
+     <ol>
+       <li class="top-skill">Javascript</li>
+       <li>HTML</li>
+       <li>CSS</li>
+       <li>Python</li>
+       <li>React</li>
+     </ol>
+    </div>
+
+    <div id="Projects">
+        <h2>Projects</h2>
+     <div id="Project1">
+       <h3>Project1</h3>
+       <p>My first project was building a music synthesiser</p>
+     </div>
+    </div>
+
+
+  
+  <footer>
+    <p> Phone number: 07465725826</p>
+    <p> Email: <a href="#">mariamhamid248@gmail.com</a></p>
+
+
+  </footer>
+
+    <!-- Linking the script tag -->
+   <script src="script.js"></script>
+ </body>
+</html>
